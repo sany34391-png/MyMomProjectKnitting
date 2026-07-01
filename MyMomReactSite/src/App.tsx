@@ -5,14 +5,18 @@ function App() {
 
   return (
     <>
-      <div className="App w-full">
-        <header className="App-header fixed top-0 left-0 w-full h-24 bg-[#cafeca] text-gray-800 flex ">
-          <img src="public/logo.jpg" alt="Logo" className="flex items-center justify-start w-40 h-16 pl-" />
-          <ul className="flex text-gray-800 text-lg items-center justify-end w-full h-full gap-8 pr-86 pb-8">
-            <li><a className="Search" href="#Search">Search</a></li>
-            <li><a className="Delivery" href="#Delivery">Delivery</a></li>
-            <li><a className="About" href="#About">About us</a></li>
-            <li><a className="Contact" href="#Contact">Contact</a></li>
+      <div className="App">
+        <header className="App-header">
+          <img src="public/logo.jpg" alt="Logo" className="Logo" />
+          <ul className="">
+            <li><a className="Search" href="#Search">Головна</a></li>
+            <li><a className="Delivery" href="#Delivery">Іграшки</a></li>
+            <li><a className="About" href="#About">Про нас</a></li>
+            <li><a className="Contact" href="#Contact">Контакти</a></li>
+            <button className="">
+              Написати нам
+              <img src="assets/images/contact-icon.jpg" className="icon01" alt="Contact" />
+            </button>
           </ul>
         </header>
       </div>
